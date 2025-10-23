@@ -14,7 +14,7 @@ import Privacy from './Pages/Privacy.jsx';
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/pashmina">
     <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />

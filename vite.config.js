@@ -7,6 +7,7 @@ import svgr from 'vite-plugin-svgr'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss(), svgr()],
+  base: 'pashmina',
   server: {
     host: true, // allow network access
     port: 5173,
